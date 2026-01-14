@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Script arguments 
+
+echo "Script name: $0"
+echo "First argument: $1"
+echo "All arguments: $@"
+echo "Number of arguments: $#"
+
+# Cleaner notation when echoing the special arguments
+
+echo "Script name: ${0}"
+echo "First argument: ${1}"
+echo "All arguments: ${@}"
+echo "Number of arguments: ${#}"

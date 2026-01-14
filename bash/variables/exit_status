@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Exit status, every command returns an exit code 
+# $? holds the exit code of the last command
+# There for 0 = success, Non-zero = failure
+
+# If you run the ls command of /etc/password the result will be 0 (succes)
+
+ls /etc/passwd
+echo "Exit code: $?"
+
+# If you run the ls command of some thing that does nor exist the result will be 2 (failure)
+
+ls /nonexistent
+echo "Exit code: $?"

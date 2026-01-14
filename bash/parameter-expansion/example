@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Declaring a variable filename
+
+filename="document.txt"
+
+# Parameter expansion is the % sign this, will take the filename variable en it will cut-off .txt from it 
+# document will be printed in the terminal
+# Using parameter expansion is build into bash and is faster than sed or awk because no subprocess will be started
+
+echo "${filename%.txt}"

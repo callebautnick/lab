@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Capture command output into a variable:
+
+# Today notation in EU way
+
+today_eu=$(date +%d-%m-%Y)
+
+# Today notation in ISO 8601 international standard way
+
+today_iso=$(date +%Y-%m-%d)
+
+echo "Today is ${today_eu} in the EU"
+echo "Today is ${today_iso} in the ISO 8601 international standard way, which is excellent for sorting files by date!"
+
+# Store the current directory 
+current_dir=$(pwd)
+
+# Get git branch
+git_branch=$(git branch --show-current)
+
+echo "You are currently in this directory: ${current_dir} and you are working in the ${git_branch} git branch."
