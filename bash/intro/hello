@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Print this on the commandline 
+echo "Hello, DevOps!"
