@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Numeric Comparisons
+
+count=5
+
+[[ $count -eq 5 ]] && echo "Equal to 5"
+[[ $count -gt 3 ]] && echo "Greater than 3"
+[[ $count -lt 10 ]] && echo "Less than 10"
+
+# Arithmetic (( )) for Numbers
+
+count=5
+if (( count > 3 )); then
+    echo "Count is greater than 3"
+fi
