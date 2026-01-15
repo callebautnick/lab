@@ -13,9 +13,9 @@ I am currently experimenting with the following technologies in this repo:
 
 * **Orchestration:** Kubernetes (K8s), Minikube / K3s
 * **Containerization:** Docker
-* **CI/CD:** Jenkins / GitHub Actions / GitLab CI [Choose yours]
-* **IaC:** Terraform / Ansible [If applicable]
-* **Monitoring:** Prometheus & Grafana [If applicable]
+* **CI/CD:** Flux  / GitOps
+* **IaC:** Terraform / Ansible 
+* **Monitoring:** Prometheus & Grafana 
 
 ## 🚀 Key Learnings
 
@@ -24,3 +24,4 @@ I am currently experimenting with the following technologies in this repo:
 - [ ] Setting up a local Kubernetes cluster.
 - [ ] Implementing a CI/CD pipeline.
 - [ ] Configuring auto-scaling and health checks.
+- [ ] Monitoring & logging 
